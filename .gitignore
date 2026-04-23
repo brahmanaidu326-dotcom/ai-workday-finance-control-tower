@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Data & outputs (keep folders via .gitkeep)
+data/raw/*
+data/processed/*
+data/warehouse/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/warehouse/.gitkeep
+
+outputs/reconciliation/*
+outputs/exceptions/*
+outputs/reports/*
+!outputs/reconciliation/.gitkeep
+!outputs/exceptions/.gitkeep
+!outputs/reports/.gitkeep
+
+# Logs
+*.log
+
+# Power BI temp
+*.pbix.bak
