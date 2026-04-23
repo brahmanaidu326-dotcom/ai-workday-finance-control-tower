@@ -1,5 +1,5 @@
-<img width="1920" height="1128" alt="Screenshot 2026-04-22 222826" src="https://github.com/user-attachments/assets/d8c41550-5f5b-484a-aa75-0aca3a56f048" />
-<img width="1920" height="1128" alt="Screenshot 2026-04-22 222812" src="https://github.com/user-attachments/assets/e0708f2f-eb8f-473a-b5c2-b4a7df284f5b" />
+<img width="1920" height="987" alt="Screenshot 2026-04-22 222812" src="https://github.com/user-attachments/assets/fd516233-b773-4e71-83e4-1e168930d60b" />
+
 # AI-Powered Workday Finance Control Tower
 
 An enterprise-grade simulation of a Workday-style finance operations control tower that traces every transaction through:
