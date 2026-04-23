@@ -6,6 +6,20 @@ An enterprise-grade simulation of a Workday-style finance operations control tow
 
 Built to mirror how real finance systems teams identify why numbers don't tie during close, classify exceptions, and drive remediation.
 
+## Dashboard Views
+
+### Executive Close Overview
+<img width="1920" height="987" alt="Executive Close Overview" src="https://github.com/user-attachments/assets/fd516233-b773-4e71-83e4-1e168930d60b" />
+
+### Source-to-GL Traceability
+<img width="1920" height="987" alt="Source-to-GL Traceability" src="https://github.com/user-attachments/assets/8c987f20-37de-41b2-943f-be0cee15af1c" />
+
+### AI Root-Cause Analysis
+<img width="1920" height="990" alt="AI Root-Cause Analysis" src="https://github.com/user-attachments/assets/dad1417b-9780-43b9-9e95-fcc182c3ffa0" />
+
+## Business problem
+Finance teams often cannot explain why balances don't match across source systems, reporting data, journals, and the GL. This causes close delays, manual journal work, audit risk, and low trust in the numbers. This project demonstrates an end-to-end lineage and exception-intelligence layer that attacks all four.
+
 <img width="1920" height="987" alt="Screenshot 2026-04-22 222812" src="https://github.com/user-attachments/assets/fd516233-b773-4e71-83e4-1e168930d60b" />
 <img width="1920" height="987" alt="Screenshot 2026-04-22 222826" src="https://github.com/user-attachments/assets/8c987f20-37de-41b2-943f-be0cee15af1c" /> <img width="1920" height="990" alt="Screenshot 2026-04-22 222856" src="https://github.com/user-attachments/assets/dad1417b-9780-43b9-9e95-fcc182c3ffa0" />  
 
