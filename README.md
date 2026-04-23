@@ -1,7 +1,3 @@
-<img width="1920" height="987" alt="Screenshot 2026-04-22 222812" src="https://github.com/user-attachments/assets/fd516233-b773-4e71-83e4-1e168930d60b" />
-<img width="1920" height="987" alt="Screenshot 2026-04-22 222826" src="https://github.com/user-attachments/assets/8c987f20-37de-41b2-943f-be0cee15af1c" /> <img width="1920" height="990" alt="Screenshot 2026-04-22 222856" src="https://github.com/user-attachments/assets/dad1417b-9780-43b9-9e95-fcc182c3ffa0" />  
-
-
 # AI-Powered Workday Finance Control Tower
 
 An enterprise-grade simulation of a Workday-style finance operations control tower that traces every transaction through:
@@ -9,6 +5,10 @@ An enterprise-grade simulation of a Workday-style finance operations control tow
 **Source System → Prism Transformation → Accounting Center Rules → GL Posting → Reconciliation → AI Root-Cause Explanation**
 
 Built to mirror how real finance systems teams identify why numbers don't tie during close, classify exceptions, and drive remediation.
+
+<img width="1920" height="987" alt="Screenshot 2026-04-22 222812" src="https://github.com/user-attachments/assets/fd516233-b773-4e71-83e4-1e168930d60b" />
+<img width="1920" height="987" alt="Screenshot 2026-04-22 222826" src="https://github.com/user-attachments/assets/8c987f20-37de-41b2-943f-be0cee15af1c" /> <img width="1920" height="990" alt="Screenshot 2026-04-22 222856" src="https://github.com/user-attachments/assets/dad1417b-9780-43b9-9e95-fcc182c3ffa0" />  
+
 
 ## Business problem
 Finance teams often cannot explain why balances don't match across source systems, reporting data, journals, and the GL. This causes close delays, manual journal work, audit risk, and low trust in the numbers. This project demonstrates an end-to-end lineage and exception-intelligence layer that attacks all four.
@@ -77,10 +77,22 @@ ai-workday-finance-control-tower/
 
 ```bash
 python -m venv .venv
+
+# Activate environment
 # Windows
 .venv\Scripts\activate
+
 # macOS/Linux
 source .venv/bin/activate
+
+# Install dependencies
+python -m pip install -r requirements.txt
+
+# Generate data (required for first run)
+python run_pipeline.py
+
+# Launch the app
+python -m streamlit run app/streamlit_app.py
 
 pip install -r requirements.txt
 
